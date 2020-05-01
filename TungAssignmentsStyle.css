@@ -1,5 +1,5 @@
 body{
-  color:blue;
+  color:black;
   background-color: beige;
   font-size: 1.3em;
   font-family:Cambria,Georgia,"Book Antiqua",serif;
@@ -7,30 +7,95 @@ body{
 
 h2{
   font-weight:bolder;
-  color:orange;
+  color:green;
 }
 
 
 h4{
   font-weight: bolder;
-  color:pink;
-  background-color: seashell;
+  color:green;
+  background-color: "";
   width: fit-content;
 
 }
 
 em{
-  background-color: magenta;
+  background-color: Yellow;
 }
 
 h1{
   font-weight: bolder;
-  color:red;
+  color: orange;
   font-style:italic;
+}
+
+h1,h2,h4{
+  text-align:center;
+}
+
+p.nvidia{
+  font-size:.8em;
+  margin-left: 10%;
+  margin-right:10%;
+  padding:20px;
+}
+
+p#tao{
+  font-size:.8em;
+}
+
+p#fakenews{
+  font-style:italic;
+  color:red;
+}
+
+img#mlg360{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
+img#taoimage{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 270px;
+  float:left;
+}
+
+div#taoparagraph{
+  border: 5px dotted pink;
+}
+
+ul.navbar{
+  list-style-type: none;
+}
+
+header{
+  text-align: center;
+}
+
+li.navbarcontent{
+  display:inline-flex;
+}
+
+div.navbarr{
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 5px solid black;
+}
+
+footer{
+  text-align:center;
+}
+
+ul.foot{
+  list-style-type: none;
 }
 
 a:link{
   color:blue;
+  padding:10px;
 }
 
 a:visited{
