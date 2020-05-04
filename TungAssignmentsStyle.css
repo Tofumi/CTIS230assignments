@@ -1,7 +1,7 @@
 body{
   color:black;
   background-color: beige;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-family:Cambria,Georgia,"Book Antiqua",serif;
 }
 
@@ -14,7 +14,6 @@ h2{
 h4{
   font-weight: bolder;
   color:green;
-  background-color: "";
   width: fit-content;
 
 }
@@ -34,19 +33,21 @@ h1,h2,h4{
 }
 
 p.nvidia{
-  font-size:.8em;
+  font-size:1.1em;
   margin-left: 10%;
   margin-right:10%;
   padding:20px;
 }
 
 p#tao{
-  font-size:.8em;
+  font-size:1.1em;
 }
 
 p#fakenews{
   font-style:italic;
   color:red;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 img#mlg360{
