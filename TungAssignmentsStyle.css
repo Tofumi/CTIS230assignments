@@ -5,6 +5,19 @@ body{
   font-family:Cambria,Georgia,"Book Antiqua",serif;
 }
 
+@media(max-width: 750px){
+  body{
+    margin-left: 0px;
+    margin-right:0px;
+  }
+}
+
+@media screen and (orientation: portrait){
+  body{
+
+  }
+}
+
 h2{
   font-weight:bolder;
   color:green;
@@ -66,6 +79,9 @@ img#taoimage{
 
 div#taoparagraph{
   border: 5px dotted pink;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 ul.navbar{
@@ -92,6 +108,32 @@ footer{
 
 ul.foot{
   list-style-type: none;
+}
+
+div#surpriseimagecontainer{
+  display:none;
+  margin-left: 30%;
+}
+
+button#thebutton{
+  margin-right: 350px;
+}
+
+div#textinputContainer{
+  align-self: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+div#buttondiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width:fit-content;
+  border:5px solid black;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 a:link{
