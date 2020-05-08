@@ -9,13 +9,22 @@ body{
   body{
     margin-left: 0px;
     margin-right:0px;
+    font-size: .8em;
   }
 }
 
 @media screen and (orientation: portrait){
-  body{
-
+  footer{
+margin-right: 5vw;
+margin-left: 5vw;
   }
+.footerbox{
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+div#nvidiaImageBox{
+  margin-left: 30vw;
+}
 }
 
 h2{
@@ -47,8 +56,8 @@ h1,h2,h4{
 
 p.nvidia{
   font-size:1.1em;
-  margin-left: 10%;
-  margin-right:10%;
+  margin-left: 5vw;
+  margin-right:5vw;
   padding:20px;
 }
 
@@ -59,8 +68,8 @@ p#tao{
 p#fakenews{
   font-style:italic;
   color:red;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 img#mlg360{
@@ -71,9 +80,9 @@ img#mlg360{
 }
 
 img#taoimage{
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 270px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 300px;
   float:left;
 }
 
@@ -86,6 +95,7 @@ div#taoparagraph{
 
 ul.navbar{
   list-style-type: none;
+  padding-left: 0;
 }
 
 header{
@@ -94,11 +104,12 @@ header{
 
 li.navbarcontent{
   display:inline-flex;
+  left:0;
 }
 
 div.navbarr{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10vw;
+  margin-right: 10vw;
   border: 5px solid black;
 }
 
@@ -108,15 +119,16 @@ footer{
 
 ul.foot{
   list-style-type: none;
+  padding-left: 0;
 }
 
 div#surpriseimagecontainer{
   display:none;
-  margin-left: 30%;
+  margin-left: 20vw;;
 }
 
 button#thebutton{
-  margin-right: 350px;
+  margin-right: 10vw;
 }
 
 div#textinputContainer{
@@ -135,6 +147,17 @@ div#buttondiv{
   margin-left: 30%;
   margin-right: 30%;
 }
+
+img#nvidiaImage{
+  width:100px;
+  height: auto;
+}
+
+div#nvidiaImageBox{
+  margin-left: 45vw;
+  margin-right: 45vw;
+}
+
 
 a:link{
   color:blue;

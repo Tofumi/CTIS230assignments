@@ -9,6 +9,9 @@ textentry = document.getElementById("myinput");
 headlinechange = document.getElementById("headlinechange");
 otherHeadLineChange = document.getElementById("title");
 
+enlargeButton = document.getElementById("enlargeImage");
+theImage = document.getElementById("nvidiaImage");
+
 // Step 2: Add event listener
 
 myparagraph.addEventListener("click", onClick);
@@ -18,7 +21,13 @@ theOtherButton.addEventListener("click",onOtherButtonClick);
 textentry.addEventListener("change", onChange);
 otherHeadLineChange.addEventListener("click", onSecondClick);
 
+enlargeButton.addEventListener("click",expandImage);
+
 // Step 3: Write the event listener
+
+function expandImage(){
+  theImage.style.width = "300px";
+}
 
 function onSecondClick(){
   otherHeadLineChange.innerHTML = "Have a Nice Day!";
